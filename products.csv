@@ -1,0 +1,7 @@
+[
+  {"name":"thinkpad","price": 10000,"quantity": 5},
+  {"name":"thinkpad","price": 15000,"quantity": 6},
+  {"name":"thinkpad","price": 5000,"quantity": 2},
+  {"name":"thinkpad","price": 6000,"quantity": 8},
+  {"name":"thinkpad","price": 4000,"quantity": 1}
+]
