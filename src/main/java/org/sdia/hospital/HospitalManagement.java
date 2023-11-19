@@ -7,6 +7,8 @@ import org.apache.spark.sql.SparkSession;
 import java.util.HashMap;
 import java.util.Map;
 
+import static org.apache.spark.sql.functions.*;
+
 public class HospitalManagement {
     public static void main(String[] args) {
         SparkSession ss=SparkSession.builder().appName("MySql application").master("local[*]").getOrCreate();
@@ -34,6 +36,19 @@ public class HospitalManagement {
                 .option("dbtable","consultations")
                 .load();
         //consults.show();
+
+        //Consultations By day
+        Dataset<Row> consultsWithDay=consults.withColumn("day",dayofmonth(col("date")));
+        Dataset<Row> consultsPerDay = consultsWithDay.groupBy("day")
+                .agg(count("*").alias("consultsPerDay"))
+                .orderBy("day");
+        //consultsPerDay.show();
+
+        //Consultations By date
+        Dataset<Row> consultsPerDate = consultsWithDay.groupBy("date")
+                .agg(count("*").alias("consultsCount"))
+                .orderBy(desc("date"));
+        consultsPerDate.show();
 
     }
 }
