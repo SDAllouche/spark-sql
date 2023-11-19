@@ -11,7 +11,7 @@ import static org.apache.spark.sql.functions.*;
 
 public class HospitalManagement {
     public static void main(String[] args) {
-        SparkSession ss=SparkSession.builder().appName("MySql application").master("local[*]").getOrCreate();
+        SparkSession ss=SparkSession.builder().appName("Hospital Analysis").master("local[*]").getOrCreate();
 
         Map<String,String> options=new HashMap<>();
         options.put("driver","com.mysql.jdbc.Driver");
