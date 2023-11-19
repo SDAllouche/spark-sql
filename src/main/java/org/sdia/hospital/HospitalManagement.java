@@ -58,13 +58,11 @@ public class HospitalManagement {
         //consultsPerDr.show();
 
         //
-        Dataset<Row> joinedDF = consults.join(patients, consults.col("id_patient").equalTo(patients.col("id")));
-        Dataset<Row> result = joinedDF.groupBy("id_medecin", "nom", "prenom")
-                .agg(countDistinct("id_patient").alias("patientCount"))
+        Dataset<Row> patientsDr = consults.join(patients, consults.col("id_patient").equalTo(patients.col("id")));
+        Dataset<Row> patientsPerDr = patientsDr.groupBy( "nom", "prenom")
+                .agg(countDistinct("*").alias("patientCount"))
                 .orderBy(desc("patientCount"));
-
-        // Show results
-        result.show();
+        patientsPerDr.show();
 
 
     }
