@@ -48,7 +48,15 @@ public class HospitalManagement {
         Dataset<Row> consultsPerDate = consultsWithDay.groupBy("date")
                 .agg(count("*").alias("consultsCount"))
                 .orderBy(desc("date"));
-        consultsPerDate.show();
+        //consultsPerDate.show();
+
+        //Consultations Per doctor
+        Dataset<Row> doctorsConsults = consults.join(doctors, consults.col("id_medecin").equalTo(doctors.col("id")));
+        Dataset<Row> consultsPerDr = doctorsConsults.groupBy( "nom", "prenom")
+                .agg(count("*").alias("consultsCount"))
+                .orderBy(desc("consultsCount"));
+        consultsPerDr.show();
+
 
     }
 }
