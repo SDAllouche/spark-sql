@@ -21,9 +21,91 @@ Spark SQL allows developers to directly process RDDs and query external data sto
 
 ## Application
 1. Incidents Management Captures
+<table >
+    <thead>
+        <tr>
+            <th>Use Mockaroo To Generate Random Data</th>
+            <th>Generated Data</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><img src="Screenshots/image8.png""></td>
+            <td><img src="Screenshots/image13.png""></td>
+        </tr>
+    </tbody>
+</table><br>
+<table >
+    <thead>
+        <tr>
+            <th>Number of Incidents per Service</th>
+            <th>Two Years With The Most Incidents</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><img src="Screenshots/image14.png""></td>
+            <td><img src="Screenshots/image15.png""></td>
+        </tr>
+    </tbody>
+</table>
+<br><br>
 
 2. Hospital Management Captures
 
+<table >
+    <thead>
+        <tr>
+            <th>Create DB Tables</th>
+            <th>Use Mockaroo To Generate Random Data</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><img src="Screenshots/image9.png""></td>
+            <td><img src="Screenshots/image8.png""></td>
+        </tr>
+    </tbody>
+</table><br>
+<table >
+    <thead>
+        <tr>
+            <th>Doctors Table</th>
+            <th>Patients Table</th>
+            <th>Consultations Table</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><img src="Screenshots/image11.png""></td>
+            <td><img src="Screenshots/image12.png""></td>
+            <td><img src="Screenshots/image10.png""></td>
+        </tr>
+        <tr>
+            <td><img src="Screenshots/image1.png""></td>
+            <td><img src="Screenshots/image2.png""></td>
+            <td><img src="Screenshots/image3.png""></td>
+        </tr>
+    </tbody>
+</table><br>
+<table >
+    <thead>
+        <tr>
+            <th>Number of Consultations Per Day</th>
+            <th>Number of Consultations Per Doctor</th>
+            <th>Number of Patients That attended Each Doctor</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><img src="Screenshots/image5.png""></td>
+            <td><img src="Screenshots/image6.png""></td>
+            <td><img src="Screenshots/image7.png""></td>
+        </tr>
+    </tbody>
+</table><br><br>
+
+## License
 
 
 
