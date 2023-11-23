@@ -106,7 +106,5 @@ Spark SQL allows developers to directly process RDDs and query external data sto
 </table><br><br>
 
 ## License
-
-
-
+[MIT License](LICENSE)
 
