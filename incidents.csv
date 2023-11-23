@@ -1,6 +1,101 @@
-﻿Id,titre,description,service,date
-1,incid1,desc1,service1,17/11/2023
-2,incid2,desc2,service1,16/11/2022
-3,incid3,desc3,service2,15/11/2023
-4,incid4,desc4,service2,14/11/2021
-5,incid5,desc5,service3,13/11/2021
+id,titre,description,service,date
+RSJ-440-YI,chemical spill,Chemical spill in the laboratory,Manufacturing Solutions,2018/02/23
+HCE-625-HC,slip and fall,Slip and fall accident in the hallway,Industrial Automation,2016/10/31
+LYB-612-RY,equipment malfunction,Equipment malfunction during operation,Energy Efficiency Solutions,2022/05/07
+ZGJ-286-DK,fire incident,Fire incident in the storage area,Facility Maintenance,2023/10/09
+HAE-233-DH,equipment malfunction,Equipment malfunction during operation,Manufacturing Solutions,2021/03/27
+JRK-774-ZP,injury,Employee altercation in the break room,Facility Maintenance,2021/07/01
+GAZ-579-VD,fire incident,Fire incident in the storage area,Manufacturing Solutions,2019/04/06
+RDN-824-SM,equipment malfunction,Equipment malfunction during operation,Energy Efficiency Solutions,2022/03/14
+PHR-130-RO,injury,Employee altercation in the break room,Industrial Automation,2021/06/09
+KPP-021-CY,chemical spill,Chemical spill in the laboratory,Manufacturing Solutions,2021/04/03
+TLD-023-BA,equipment malfunction,Equipment malfunction during operation,Industrial Automation,2014/01/31
+LRE-656-OL,fire incident,Fire incident in the storage area,Energy Efficiency Solutions,2018/05/28
+IMM-665-KF,injury,Employee altercation in the break room,Logistics and Supply Chain,2020/05/31
+LDR-825-PH,equipment malfunction,Equipment malfunction during operation,Logistics and Supply Chain,2016/07/28
+XEX-782-HL,fire incident,Fire incident in the storage area,Industrial Automation,2016/03/04
+XNJ-677-EZ,equipment malfunction,Equipment malfunction during operation,Facility Maintenance,2017/08/29
+CWA-083-RU,chemical spill,Chemical spill in the laboratory,Logistics and Supply Chain,2017/08/25
+QSN-232-QA,equipment malfunction,Equipment malfunction during operation,Facility Maintenance,2016/10/11
+ETB-795-ST,slip and fall,Slip and fall accident in the hallway,Energy Efficiency Solutions,2019/10/24
+XHC-870-TE,fire incident,Fire incident in the storage area,Manufacturing Solutions,2014/03/05
+MJK-842-FE,injury,Employee altercation in the break room,Industrial Automation,2015/09/24
+RDP-379-KR,fire incident,Fire incident in the storage area,Logistics and Supply Chain,2017/04/23
+GKR-487-JO,fire incident,Fire incident in the storage area,Facility Maintenance,2019/02/18
+CWI-075-QY,fire incident,Fire incident in the storage area,Industrial Automation,2021/03/04
+NOR-581-VL,injury,Employee altercation in the break room,Energy Efficiency Solutions,2015/12/02
+QBF-469-PK,chemical spill,Chemical spill in the laboratory,Energy Efficiency Solutions,2016/06/07
+RQD-294-SH,slip and fall,Slip and fall accident in the hallway,Manufacturing Solutions,2022/07/03
+ABX-249-AA,chemical spill,Chemical spill in the laboratory,Industrial Automation,2018/11/20
+HVB-097-KB,equipment malfunction,Equipment malfunction during operation,Energy Efficiency Solutions,2021/06/26
+LYX-678-XB,equipment malfunction,Equipment malfunction during operation,Manufacturing Solutions,2020/05/18
+VIE-313-AD,fire incident,Fire incident in the storage area,Logistics and Supply Chain,2021/02/03
+VPD-769-BU,slip and fall,Slip and fall accident in the hallway,Energy Efficiency Solutions,2022/01/10
+LHT-728-AF,chemical spill,Chemical spill in the laboratory,Logistics and Supply Chain,2018/01/15
+DFF-611-JZ,equipment malfunction,Equipment malfunction during operation,Logistics and Supply Chain,2022/10/23
+HSU-514-LA,equipment malfunction,Equipment malfunction during operation,Manufacturing Solutions,2016/01/18
+PJY-738-UB,chemical spill,Chemical spill in the laboratory,Manufacturing Solutions,2016/10/30
+QNW-724-IO,injury,Employee altercation in the break room,Manufacturing Solutions,2018/09/28
+LNF-761-PN,injury,Employee altercation in the break room,Industrial Automation,2016/05/15
+DRL-201-OI,equipment malfunction,Equipment malfunction during operation,Energy Efficiency Solutions,2019/07/25
+DQV-482-DT,equipment malfunction,Equipment malfunction during operation,Manufacturing Solutions,2018/03/14
+GKQ-330-OO,injury,Employee altercation in the break room,Logistics and Supply Chain,2018/08/09
+SMG-600-AT,chemical spill,Chemical spill in the laboratory,Energy Efficiency Solutions,2022/02/25
+BFG-817-VY,equipment malfunction,Equipment malfunction during operation,Manufacturing Solutions,2013/12/19
+UFW-937-GT,slip and fall,Slip and fall accident in the hallway,Logistics and Supply Chain,2021/07/02
+OHI-621-RX,slip and fall,Slip and fall accident in the hallway,Facility Maintenance,2017/06/26
+JKQ-637-DP,chemical spill,Chemical spill in the laboratory,Industrial Automation,2014/08/01
+TEM-377-XC,chemical spill,Chemical spill in the laboratory,Logistics and Supply Chain,2018/04/28
+KLI-062-KI,fire incident,Fire incident in the storage area,Industrial Automation,2023/05/13
+FYM-714-KV,equipment malfunction,Equipment malfunction during operation,Facility Maintenance,2014/12/31
+MFO-681-JX,fire incident,Fire incident in the storage area,Logistics and Supply Chain,2019/03/12
+ZTU-075-KD,injury,Employee altercation in the break room,Facility Maintenance,2023/02/23
+YNX-024-YP,injury,Employee altercation in the break room,Facility Maintenance,2015/11/19
+YEZ-828-VZ,chemical spill,Chemical spill in the laboratory,Facility Maintenance,2016/07/24
+ALB-918-YB,injury,Employee altercation in the break room,Logistics and Supply Chain,2020/03/20
+WTJ-561-RF,equipment malfunction,Equipment malfunction during operation,Facility Maintenance,2023/03/16
+WAC-579-BU,equipment malfunction,Equipment malfunction during operation,Energy Efficiency Solutions,2022/05/04
+KAE-743-SI,injury,Employee altercation in the break room,Energy Efficiency Solutions,2023/08/14
+XEP-158-MH,chemical spill,Chemical spill in the laboratory,Industrial Automation,2021/08/08
+EII-049-MX,fire incident,Fire incident in the storage area,Manufacturing Solutions,2017/09/23
+JZX-945-WL,injury,Employee altercation in the break room,Energy Efficiency Solutions,2014/09/16
+RFY-994-EM,injury,Employee altercation in the break room,Manufacturing Solutions,2020/10/12
+GDN-162-WX,fire incident,Fire incident in the storage area,Facility Maintenance,2023/06/22
+FKF-010-GV,equipment malfunction,Equipment malfunction during operation,Energy Efficiency Solutions,2018/11/28
+GZR-281-BZ,injury,Employee altercation in the break room,Facility Maintenance,2023/05/11
+UHL-508-JC,slip and fall,Slip and fall accident in the hallway,Logistics and Supply Chain,2022/07/16
+KEE-219-FL,chemical spill,Chemical spill in the laboratory,Facility Maintenance,2019/04/24
+OMF-497-KZ,fire incident,Fire incident in the storage area,Facility Maintenance,2019/10/01
+RGL-118-RP,equipment malfunction,Equipment malfunction during operation,Manufacturing Solutions,2022/01/02
+QKU-266-FE,injury,Employee altercation in the break room,Manufacturing Solutions,2016/04/22
+OXZ-320-NP,fire incident,Fire incident in the storage area,Industrial Automation,2023/11/09
+DHK-377-ID,slip and fall,Slip and fall accident in the hallway,Facility Maintenance,2022/12/21
+FKW-344-GZ,injury,Employee altercation in the break room,Manufacturing Solutions,2016/06/24
+FRB-642-SV,equipment malfunction,Equipment malfunction during operation,Manufacturing Solutions,2019/12/13
+NQM-616-KZ,equipment malfunction,Equipment malfunction during operation,Energy Efficiency Solutions,2015/05/19
+DQZ-155-WM,fire incident,Fire incident in the storage area,Energy Efficiency Solutions,2014/06/09
+DLJ-541-GY,injury,Employee altercation in the break room,Industrial Automation,2022/12/08
+ZVK-758-QZ,equipment malfunction,Equipment malfunction during operation,Logistics and Supply Chain,2020/06/22
+SMU-469-CS,chemical spill,Chemical spill in the laboratory,Facility Maintenance,2015/09/12
+OXU-430-ID,fire incident,Fire incident in the storage area,Facility Maintenance,2021/12/06
+YAF-543-TD,slip and fall,Slip and fall accident in the hallway,Industrial Automation,2017/07/16
+JWV-693-YN,slip and fall,Slip and fall accident in the hallway,Energy Efficiency Solutions,2015/08/30
+YJA-541-SP,equipment malfunction,Equipment malfunction during operation,Facility Maintenance,2022/03/09
+MHD-497-ML,equipment malfunction,Equipment malfunction during operation,Industrial Automation,2020/12/10
+NCL-610-HA,chemical spill,Chemical spill in the laboratory,Facility Maintenance,2015/10/16
+YDM-611-QE,fire incident,Fire incident in the storage area,Industrial Automation,2022/12/01
+IOJ-114-KH,slip and fall,Slip and fall accident in the hallway,Logistics and Supply Chain,2019/11/11
+IQI-130-BD,fire incident,Fire incident in the storage area,Industrial Automation,2014/07/28
+VJA-791-LA,fire incident,Fire incident in the storage area,Facility Maintenance,2020/11/02
+AFK-856-VG,equipment malfunction,Equipment malfunction during operation,Logistics and Supply Chain,2017/04/09
+QIK-521-DF,chemical spill,Chemical spill in the laboratory,Manufacturing Solutions,2019/01/28
+ABY-508-MF,slip and fall,Slip and fall accident in the hallway,Facility Maintenance,2019/01/30
+KNQ-125-XG,fire incident,Fire incident in the storage area,Manufacturing Solutions,2023/10/14
+LNG-810-RL,slip and fall,Slip and fall accident in the hallway,Logistics and Supply Chain,2023/09/16
+WZB-170-ZK,chemical spill,Chemical spill in the laboratory,Manufacturing Solutions,2019/05/11
+GTS-765-BB,fire incident,Fire incident in the storage area,Energy Efficiency Solutions,2020/01/17
+OFU-869-LH,slip and fall,Slip and fall accident in the hallway,Facility Maintenance,2020/11/21
+TFX-766-YP,fire incident,Fire incident in the storage area,Manufacturing Solutions,2014/01/19
+NBO-356-KE,chemical spill,Chemical spill in the laboratory,Manufacturing Solutions,2019/04/29
+DFO-257-BZ,chemical spill,Chemical spill in the laboratory,Manufacturing Solutions,2022/07/14
+DJH-403-SV,fire incident,Fire incident in the storage area,Logistics and Supply Chain,2020/05/28

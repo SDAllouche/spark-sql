@@ -10,7 +10,7 @@ public class IncidentManagement {
     public static void main(String[] args) {
         SparkSession ss=SparkSession.builder().appName("Incidents Management").master("local[*]").getOrCreate();
         Dataset<Row> df=ss.read().option("header",true).option("inferSchema",true).csv("incidents.csv");
-        df = df.withColumn("date", to_date(col("date"), "dd/MM/yyyy"));
+        df = df.withColumn("date", to_date(col("date"), "yyyy/MM/dd"));
         df.show();
 
         //Show incidents by service
